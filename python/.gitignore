@@ -1,0 +1,6 @@
+gtsam_gpdepth/
+setup.py
+
+dist
+*.egg-info
+**/__pycache__
