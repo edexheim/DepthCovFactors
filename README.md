@@ -1,6 +1,6 @@
-## gtsam_gpdepth
+## Depth Covariance Factors in GTSAM
 
-Depth covariance prior depth factors from "Learning a Depth Covariance Function".
+Depth covariance prior depth factors used in bundle adjustment for "Learning a Depth Covariance Function".
 
 ## Installation
 
