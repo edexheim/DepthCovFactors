@@ -2,7 +2,7 @@ cmake_minimum_required(VERSION 3.9)
 project(gtsam_gpdepth CXX C)
 set(CXX_STANDARD 11)
 set(CMAKE_BUILD_TYPE "Release")
-set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -march=native")
+# set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -march=native")
 
 find_package(GTSAM REQUIRED) 
 

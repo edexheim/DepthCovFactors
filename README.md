@@ -11,7 +11,7 @@ To install, follow these instructions (with desired python version of current en
 ```
 mkdir build
 cd build
-cmake .. -DGTSAM_PYTHON_VERSION=3.6.13`
+cmake .. -DGTSAM_PYTHON_VERSION=3.8.15
 make
 make python-install
 ```

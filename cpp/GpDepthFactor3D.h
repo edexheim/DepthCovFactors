@@ -49,6 +49,11 @@ public:
     }
   }
 
+  /// @return a deep copy of this factor
+  gtsam::NonlinearFactor::shared_ptr clone() const override {
+      return boost::static_pointer_cast<gtsam::NonlinearFactor>(
+          gtsam::NonlinearFactor::shared_ptr(new This(*this))); }
+
   Vector getDepthVector(const Values& x) const {
     
     const Pose3& pose = x.at<Pose3>(keys_[0]); // T_WC

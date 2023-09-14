@@ -40,6 +40,11 @@ public:
     }
   }
 
+  /// @return a deep copy of this factor
+  gtsam::NonlinearFactor::shared_ptr clone() const override {
+      return boost::static_pointer_cast<gtsam::NonlinearFactor>(
+          gtsam::NonlinearFactor::shared_ptr(new This(*this))); }
+
   Vector getDataVector(const Values& x,
     boost::optional<std::vector<Matrix>&> H = boost::none) const {
 
