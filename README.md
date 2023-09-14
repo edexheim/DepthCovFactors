@@ -32,7 +32,7 @@ make check
 ```
 
 ## Citation
-If you found this code/work to be useful in your own research, please considering citing the following:
+If you found this code/work to be useful in your own research, please consider citing the following:
 ```bibtex
 @inproceedings{dexheimer2023depthcov,
   title={{Learning a Depth Covariance Function},
